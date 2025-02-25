@@ -1,3 +1,10 @@
+> [!IMPORTANT]  
+> Hi there! This is a really simple fork of `bootstrap-select` I made to fix the first-letter navigation behaviour I encountered. While I don't plan on updating this repo unless I find more blocking elements on my end, you're welcome to use it for your projects. 🙂
+> 
+> The README has been updated with correct imports to the fork of the library, as well as updating Bootstrap 4 to 5  - you can refer to the [original docs](https://developer.snapappointments.com/bootstrap-select/options/) for everything else since nothing has been changed on the API side of things.
+
+<hr>
+
 <h1 align="center">bootstrap-select</h1>
 
 <p align="center">
@@ -26,10 +33,6 @@
 	</a>
 </p>
 
-<p align="center">
-	<a href="https://developer.snapappointments.com/bootstrap-select"><img src="https://user-images.githubusercontent.com/2874325/38997831-97e12bbe-43ab-11e8-85f5-b8c05d91c7b1.gif" width="289" height="396" alt="bootstrap-select demo"></a>
-</p>
-
 ## Demo
 
 You can view a live demo and some examples of how to use the various options [here](https://developer.snapappointments.com/bootstrap-select/examples/).
@@ -40,7 +43,7 @@ Bootstrap-select requires jQuery v1.9.1+, Bootstrap’s dropdown.js component, a
 
 Several quick start options are available:
 
-- [Download the latest release.](https://github.com/snapappointments/bootstrap-select/archive/v1.14.0-beta3.zip)
+- [Download the latest release.](https://github.com/maxencelav/bootstrap-select/releases/latest)
 - Clone the repo: `git clone https://github.com/snapappointments/bootstrap-select.git`
 - Install with [npm](https://www.npmjs.com/package/bootstrap-select): `npm install bootstrap-select`
 - Install with [yarn](https://yarnpkg.com/package/bootstrap-select): `yarn add bootstrap-select`
@@ -63,7 +66,7 @@ Several quick start options are available:
 
 ## Usage
 
-> Bootstrap 4 only works with bootstrap-select v1.13.0+. By default, bootstrap-select automatically detects the version of Bootstrap being used. However, there are some instances where the version detection won't work. See the [documentation](https://developer.snapappointments.com/bootstrap-select/options/#bootstrap-version) for more information.
+> Bootstrap 5 only works with bootstrap-select v1.14.0-beta2+. By default, bootstrap-select automatically detects the version of Bootstrap being used. However, there are some instances where the version detection won't work. See the [documentation](https://developer.snapappointments.com/bootstrap-select/options/#bootstrap-version) for more information.
 
 ### Via `selectpicker` class
 Add the `selectpicker` class to your select elements to auto-initialize bootstrap-select.
